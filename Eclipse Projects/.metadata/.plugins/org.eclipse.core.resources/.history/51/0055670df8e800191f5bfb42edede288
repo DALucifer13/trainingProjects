@@ -1,0 +1,21 @@
+package Main;
+
+public class Results {
+	
+	int physics;
+	int chemistry;
+	int biology;
+	int total;
+	int percentage;
+	
+	
+	public void results() {
+		total = physics + chemistry + biology;
+		percentage = (total * 100) / 450;
+		System.out.println("Your Physics score is: " + physics);
+		System.out.println("Your Chemistry score is: " + chemistry);
+		System.out.println("Your Biology score is: " + biology);
+		System.out.println("Your Total score is: " + total);
+		System.out.println("Your total percentage is: " + percentage);
+	}
+}

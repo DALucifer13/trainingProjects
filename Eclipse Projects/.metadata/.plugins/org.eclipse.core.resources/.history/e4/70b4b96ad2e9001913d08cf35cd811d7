@@ -1,0 +1,16 @@
+package Main;
+
+public class Car extends Vehicle{
+	
+	public Car() {
+		super();
+	}
+
+	@Override
+	public void drive() {
+		// TODO Auto-generated method stub
+		System.out.println("Vroooooom!");
+		
+	}
+	
+}

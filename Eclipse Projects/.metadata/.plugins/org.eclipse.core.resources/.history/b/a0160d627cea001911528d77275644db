@@ -1,0 +1,27 @@
+package main;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+
+
+public class TestFactorial {
+
+	Factorial fact = new Factorial();
+	
+	@Test
+	public void defaultTest() {
+		assertEquals("", 2, 1 + 1);
+	}
+	
+	@Test
+	public void successTest() {
+		assertEquals("Does not return proper result", "5!", fact.run(120));
+	}
+	
+	@Test
+	public void failTest() {
+		assertEquals("Returns a number followed by an exclimation point", "None", fact.run(150));
+	}
+}

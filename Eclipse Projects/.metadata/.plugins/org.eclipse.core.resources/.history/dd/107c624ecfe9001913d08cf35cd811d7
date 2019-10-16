@@ -1,0 +1,9 @@
+package Main;
+
+public class Van extends Vehicle{
+	
+	public Van() {
+		super();
+	}
+
+}

@@ -1,0 +1,37 @@
+package Main;
+
+public class Iteration {
+
+	public void iteration1() {
+		
+		for(int a = 100; a <= 200; a++) {
+			System.out.println("A");
+		}
+		
+	}
+	
+	public void iteration2() {
+		int a = 100;
+		do {
+			if(a % 2 == 0){
+				System.out.println("-");
+			}
+			else {
+				System.out.println("*");
+			}
+			a++;
+		}
+		while (a <= 200);
+		
+	}
+	
+	public void iteration3(){
+		for(int i = 0; i < 10; i++) {
+			for(int j = 0; j < 10; j++) {
+				System.out.println(j);
+			}
+			
+		}
+	}
+	
+}

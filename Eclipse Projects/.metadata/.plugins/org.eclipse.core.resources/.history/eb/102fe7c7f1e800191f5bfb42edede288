@@ -1,0 +1,19 @@
+package Main;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HelloWorld print = new HelloWorld();
+		String message = "Hello World";
+		print.output1(message);
+		
+		
+	}
+	
+	public void output1(String message) {
+		System.out.println(message);
+	}
+
+
+}

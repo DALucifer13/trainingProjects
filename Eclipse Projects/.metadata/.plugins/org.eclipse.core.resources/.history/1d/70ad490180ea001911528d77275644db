@@ -1,0 +1,11 @@
+package main;
+
+public class Factorial {
+
+	public String run(int num) {
+		String result = "";
+		
+		return result;
+	}
+	
+}

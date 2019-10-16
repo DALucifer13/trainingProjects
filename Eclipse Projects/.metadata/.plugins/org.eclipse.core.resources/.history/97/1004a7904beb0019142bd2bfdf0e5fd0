@@ -1,0 +1,40 @@
+package Main;
+
+import java.util.LinkedList;
+
+public class Shop {
+
+	LinkedList<Paint> pnt = new LinkedList<Paint>();
+	
+	public void addPaint(Paint p) {		
+		pnt.add(p);
+	}
+	
+	public void cheapest() {
+		for(Paint p : pnt) {
+			double cpl = (p.getPrice() / p.getVolume());
+			System.out.println(p.getName() + " will cost " + cpl + " per litre");
+		}
+	}
+	
+	public void leastWaste(int w) {
+		double mostWaste = 0;
+		String wasteName = "";
+		for(Paint p : pnt) {
+			double wastept1 = w / p.getCoverage();
+			double waste = wastept1 - ((int)wastept1);
+			if (waste >= mostWaste) {
+				if (wasteName == "") {
+					wasteName = p.getName();
+				}
+				else {
+					wasteName = wasteName + ", " + p.getName();
+				}
+				mostWaste = waste;
+				
+			}
+		}
+		System.out.println(wasteName + " has the mostb waste at: " + mostWaste);
+	}
+	
+}

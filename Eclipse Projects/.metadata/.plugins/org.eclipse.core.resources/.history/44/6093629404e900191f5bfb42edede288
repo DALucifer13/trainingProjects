@@ -1,0 +1,31 @@
+package Main;
+
+public class Calculator {
+	
+	public int add(int num1, int num2) {
+		return num1 + num2;
+	}
+	
+	public int min(int num1, int num2) {
+		return num1 - num2;
+	}
+	
+	public int mul(int num1, int num2) {
+		return num1 * num2;
+	}
+	
+	public double div(double num1, double num2) {
+		return num1 / num2;
+	}
+	
+
+	public void mix1(int num1, int num2, boolean tf1) {
+		// TODO Auto-generated method stub
+		if (tf1 == true) {
+			System.out.println(num1 + num2); 
+		}
+		else {
+			System.out.println(num1 * num2); 
+		}
+	}
+}

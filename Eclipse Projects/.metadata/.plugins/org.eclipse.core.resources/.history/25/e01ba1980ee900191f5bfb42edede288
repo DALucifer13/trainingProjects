@@ -1,0 +1,11 @@
+package Main;
+
+public class MentalMath {
+
+	
+	public int splitNJoin2(int num1) {
+		int num2 = num1 / 10;
+		int num3 = num1 % 10;
+		return num2 + num3;
+	}
+}
