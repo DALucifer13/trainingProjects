@@ -1,8 +1,0 @@
-package Main;
-
-public abstract class Vehicle {
-
-	public Vehicle() {
-		super();
-	}
-}

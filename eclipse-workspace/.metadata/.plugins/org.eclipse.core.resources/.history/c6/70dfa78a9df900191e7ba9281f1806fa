@@ -1,0 +1,27 @@
+package main;
+
+import org.junit.*;
+import org.openqa.selenium.*;
+
+public class sTester {
+	
+	WebDriver driver;
+	
+	@Before
+	public void setup() {
+		System.setProperty("web driver.chrome.driver", "C:\\Users\\Admin\\Documents");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+	}
+	
+	@Test
+	public void testOne() {
+		
+	}
+	
+	@After
+	public void tearDown() {
+		driver.close();
+	}
+
+}

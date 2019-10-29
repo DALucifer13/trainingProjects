@@ -1,0 +1,11 @@
+1571145326208	Rename type 'Maps'
+1571146185184	Delete element
+1571146211238	Move compilation unit
+1571146239794	Rename type 'Members'
+1571147172469	Encapsulate field 'zoom'
+1571147285088	Encapsulate field 'chapters'
+1571147340400	Encapsulate field 'stories'
+1571147846631	Encapsulate field 'email'
+1571148715245	Encapsulate field 'id'
+1571152522096	Encapsulate field 'id'
+1571152781240	Encapsulate field 'bookCount'

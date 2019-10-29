@@ -1,8 +1,0 @@
-package Main;
-
-public class Printer {
-
-	public String printout(String output) {
-		return output + "!";
-	}
-}

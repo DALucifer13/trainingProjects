@@ -1,9 +1,0 @@
-package Main;
-
-public class Bike extends Vehicle{
-	
-	public Bike() {
-		super();
-	}
-
-}

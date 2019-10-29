@@ -1,8 +1,0 @@
-package Main;
-
-public class Printer {
-
-	public void printout(String message) {
-		System.out.println(message);
-	}
-}
