@@ -1,0 +1,44 @@
+package main;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class Ex3 {
+
+WebDriver driver;
+	
+	@Before
+	public void setup() {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\Documents\\git\\myStuff\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+	}
+	
+	
+	@Test
+	public void register() throws InterruptedException {
+		driver.get("https://www.youidraw.com/apps/painter/");
+		Actions action = new Actions(driver);
+		
+		
+		
+		
+		action.moveByOffset(512, 256).clickAndHold().moveByOffset(0, 60).moveByOffset(30, -60).moveByOffset(-15, 15).moveByOffset(15, 15).release().moveByOffset(-60, -60)
+				.perform();
+		
+		
+		
+		Thread.sleep(3000);
+		
+	}
+	
+	
+//	@After
+//	public void tearDown() {
+//		driver.close();
+//	}
+	
+}
